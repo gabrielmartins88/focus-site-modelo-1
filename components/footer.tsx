@@ -1,4 +1,4 @@
-import { Logo } from "@/components/logo"
+import { LogoFooter } from "@/components/logo-footer"
 import Link from "next/link"
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react"
 
@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container py-12 md:py-16">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <Logo />
+            <LogoFooter />
             <p className="mt-4 text-gray-400 max-w-xs">
               Fornecendo soluções inovadoras para ajudar empresas a prosperarem na era digital.
             </p>
@@ -21,7 +21,12 @@ export function Footer() {
                 <Twitter className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-focus-orange">
+              <Link
+                href="https://www.instagram.com/focusconsultoria_rs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-focus-orange"
+              >
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
