@@ -20,7 +20,11 @@ export function CTASection() {
               <Button size="lg" className="bg-white text-focus-teal hover:bg-white/90">
                 Começar Agora
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white text-white bg-black/20 hover:bg-white/10 hover:text-white"
+              >
                 Saiba Mais
               </Button>
             </div>
